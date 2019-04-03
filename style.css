@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(84, 117, 206);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border-radius: 50px;
+    margin-top: 120px;
+    font-size: 40px;
+    display: inline-block;
+    cursor: pointer;
+    width: 400px;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+#dane-programisty {
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
